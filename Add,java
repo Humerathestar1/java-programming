@@ -1,0 +1,6 @@
+class Main{
+    public static void main(String[]args){
+        System.out.print("The addition of two no is:"+(3+3));
+        
+    }
+}
