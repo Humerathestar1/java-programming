@@ -1,0 +1,16 @@
+class pen{
+    String colour;
+    String type; 
+    public void write(){
+        System.out.print("write something");
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        pen obj = new pen();
+        obj.colour = "blue";
+        obj.type = "ball pen";
+        obj.write();
+    }
+}
